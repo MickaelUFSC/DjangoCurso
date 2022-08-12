@@ -6,3 +6,4 @@ def home(request):
     return render(request, 'recipes/pages/home.html', {
         'name': 'Mickael André'
     })
+
