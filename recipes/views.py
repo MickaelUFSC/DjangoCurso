@@ -7,3 +7,6 @@ def home(request):
         'name': 'Mickael André'
     })
 
+
+def category(request, id):
+    return render(request, 'recipes/pages/category.html')
